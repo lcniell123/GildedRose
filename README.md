@@ -1,12 +1,11 @@
-======================================
-Gilded Rose Requirements Specification
-======================================
+## Gilded Rose Requirements Specification
+
+## Unit Tests
 
 -   **SellinValueTest.java** - All items have a SellIn value which denotes the number of days we have to sell the item-L
 -   **QualityValueTest.java** - All items have a Quality value which denotes how valuable the item is-L
 -   **LowerValuesPerDayTest.java**- At the end of each day our system lowers both values for every item
     Pretty simple, right? Well this is where it gets interesting:-M
-
 -   **QualityDegradesTest.java** - Once the sell by date has passed, Quality degrades twice as fast-L
 -   **QualityNeverNegativeTest.java** -The Quality of an item is never negative-L
 -   **QualityNorMore50.java** - The Quality of an item is never more than 50-L
@@ -15,6 +14,8 @@ Gilded Rose Requirements Specification
 -   **BackStagePassTest.java**- "Backstage passes", like aged brie, increases in Quality as its SellIn value approaches;
     Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but
     Quality drops to 0 after the concert-M
+
+---
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
