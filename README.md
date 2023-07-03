@@ -1,19 +1,3 @@
-# Gilded Rose starting position in Java
-
-## Run the Text Fixture from Command-Line
-
-```
-./gradlew -q text
-```
-
-### Specify Number of Days
-
-For e.g. 10 days:
-
-```
-./gradlew -q text --args 10
-```
-
 ======================================
 Gilded Rose Requirements Specification
 ======================================
@@ -107,3 +91,19 @@ Please note a translation should ideally include:
 Please don't write too much code in the starting position or add too many unit tests. The idea with the one failing unit test is to tempt people to work out how to fix it, discover it wasn't that hard, and now they understand what this test is doing they realize they can improve it.
 
 If your programming language doesn't have an easy way to add a command-line interface, then the TextTest fixture is probably not necessary.
+
+# Gilded Rose starting position in Java
+
+## Run the Text Fixture from Command-Line
+
+```
+./gradlew -q text
+```
+
+### Specify Number of Days
+
+For e.g. 10 days:
+
+```
+./gradlew -q text --args 10
+```
