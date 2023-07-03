@@ -1,8 +1,13 @@
-bin
-obj
-*.sln.DotSettings.user
-.vs
-vendor
-.idea
+.idea/
 *.iml
-csharpcore/GildedRoseTests/ApprovalTest.ThirtyDays.received.txt
+target/
+
+.classpath
+.project
+bin/
+.settings/
+
+# Gradle
+.gradle
+/build/
+
