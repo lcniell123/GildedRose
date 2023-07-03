@@ -14,8 +14,6 @@ For e.g. 10 days:
 ./gradlew -q text --args 10
 ```
 
-# Requirements
-
 ======================================
 Gilded Rose Requirements Specification
 ======================================
