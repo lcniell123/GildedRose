@@ -1,4 +1,4 @@
-🌹 ## Gilded Rose Requirements Specification 🛎
+## 🌹 Gilded Rose Requirements Specification 🛎
 
 ## Unit Tests
 
