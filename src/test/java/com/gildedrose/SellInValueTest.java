@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class GildedRoseTest {
+class SellInValueTest {
 
     @Test
     void foo() {
