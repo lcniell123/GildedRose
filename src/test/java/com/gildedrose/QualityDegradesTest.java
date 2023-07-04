@@ -7,11 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class QualityDegradesTest {
 
     @Test
-    void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
+    public void degrades_after_sell_date() throws Exception {
+        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Gilded Rose Item").pastExpirationDate().ofQuality(10).build()};
         GildedRose app = new GildedRose(items);
+
         app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
+
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
     }
+
 
 }

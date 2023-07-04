@@ -6,12 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class QualityValueTest {
 
-    @Test
-    void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
+      @Test
+    public void quality_value() throws Exception {
+        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Gilded Rose Item").toBeSoldIn(0).ofQuality(10).build()};
         GildedRose app = new GildedRose(items);
-        app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
+
+
+        assertEquals(10, app.items[0].quality);
     }
 
 }

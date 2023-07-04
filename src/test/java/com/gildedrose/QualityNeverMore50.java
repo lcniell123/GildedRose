@@ -6,12 +6,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class QualityNeverMore50Test {
 
-    @Test
-    void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
+   @Test
+    public void quality_below_50() throws Exception {
+        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Backstage passes to a TAFKAL80ETC concert").toBeSoldIn(20)
+                .ofQuality(50).build()};
         GildedRose app = new GildedRose(items);
+
         app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
+
+        assertEquals(19, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
     }
 
 }
