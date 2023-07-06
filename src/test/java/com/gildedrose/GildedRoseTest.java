@@ -81,6 +81,14 @@ public void quality_above_0() throws Exception {
         assertEquals(10, app.items[0].quality);
     }
 
+@Test
+    public void sulfuras_test_2() throws Exception {
+        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Sulfuras, Hand of Ragnaros").toBeSoldIn(-1).ofQuality(10).build()};
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(11, app.items[0].quality);
+    }
+
 // "Backstage passes", like aged brie, increases in Quality as its SellIn value approaches; 
 // Quality increases by 2 when there are 10 days or less and 
 @Test
@@ -100,7 +108,7 @@ public void quality_above_0() throws Exception {
         assertEquals(13, app.items[0].quality);
     }
 
-// but Quality drops to 0 after the concert - Manasse
+// but Quality drops to 0 after the concert
 @Test
     public void backstage_test_4() throws Exception {
         GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Backstage passes to a TAFKAL80ETC concert").toBeSoldIn(0).ofQuality(10).build()};
