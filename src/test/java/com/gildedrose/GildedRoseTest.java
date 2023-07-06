@@ -108,4 +108,13 @@ public void quality_above_0() throws Exception {
         app.updateQuality();
         assertEquals(0, app.items[0].quality);
     }
+
+//Conjured items degrade twice as fast as ordinary items. 
+@Test
+    public void conjured() throws Exception {
+        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Conjured").toBeSoldIn(5).ofQuality(10).build()};
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(7, app.items[0].quality);
+    }
 }
