@@ -65,7 +65,7 @@ public void quality_above_0() throws Exception {
 // "Aged Brie" actually increases in Quality the older it gets 
 @Test
     public void aged_brie_test() throws Exception {
-        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Aged Brie").pastExpirationDate().ofQuality(10).build()};
+        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Aged Brie").ofQuality(10).build()};
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(12, app.items[0].quality);
@@ -74,7 +74,7 @@ public void quality_above_0() throws Exception {
 // "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
 @Test
     public void sulfuras_test() throws Exception {
-        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Sulfuras, Hand of Ragnaros").pastExpirationDate().toBeSoldIn(10).ofQuality(10).build()};
+        GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Sulfuras, Hand of Ragnaros").toBeSoldIn(10).ofQuality(10).build()};
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(10, app.items[0].sellIn);
