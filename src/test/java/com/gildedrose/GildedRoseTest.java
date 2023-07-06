@@ -71,7 +71,7 @@ public void quality_above_0() throws Exception {
         assertEquals(12, app.items[0].quality);
     }
 
-// "Sulfuras", being a legendary item, never has to be sold or decreases in Quality - Manasse
+// "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
 @Test
     public void sulfuras_test() throws Exception {
         GildedRoseItem[] items = new GildedRoseItem[]{new GildedRoseMake().called("Sulfuras, Hand of Ragnaros").pastExpirationDate().toBeSoldIn(10).ofQuality(10).build()};
