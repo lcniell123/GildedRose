@@ -2,20 +2,7 @@
 
 ## Unit Tests
 
--   **SellinValueTest.java** - All items have a SellIn value which denotes the number of days we have to sell the item - Luciano
--   **QualityValueTest.java** - All items have a Quality value which denotes how valuable the item is - Luciano
--   **LowerValuesPerDayTest.java**- At the end of each day our system lowers both values for every item
-    Pretty simple, right? Well this is where it gets interesting: - Manasse
--   **QualityDegradesTest.java** - Once the sell by date has passed, Quality degrades twice as fast - Luciano
--   **QualityNeverNegativeTest.java** -The Quality of an item is never negative - Luciano
--   **QualityNorMore50.java** - The Quality of an item is never more than 50 - Luciano
--   **AgedBrieTest.java** - "Aged Brie" actually increases in Quality the older it gets - Manasse
--   **SulfurasTest.java** - "Sulfuras", being a legendary item, never has to be sold or decreases in Quality - Manasse
--   **BackStagePassTest.java**- "Backstage passes", like aged brie, increases in Quality as its SellIn value approaches;
-    Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but
-    Quality drops to 0 after the concert - Manasse
-
----
+## ![Image](test-total.jpg)
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
