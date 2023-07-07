@@ -21,7 +21,7 @@ We used Google Chat for face to face communication via video and screenshare. Be
 ---
 
 **1st Session Recording**- Unit Test Meeting  
-**2nd Session Recording**- Code Refactor
+**2nd Session Recording**- Code Refactor  
 [View Video of sessions here](https://kennesawedu.sharepoint.com/sites/Team-ESEPTeam1/_layouts/15/stream.aspx?id=%2Fsites%2FTeam%2DESEPTeam1%2FShared%20Documents%2FGeneral%2Fbandicam%2D2023%2D07%2D06%2D15%2D31%2D16%2D745%5F97XSGJEV%2Emp4&ga=1)
 
 ---
