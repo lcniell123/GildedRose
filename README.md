@@ -1,8 +1,29 @@
 ## 🌹 Gilded Rose Requirements Specification 🛎
 
-## Unit Tests
+Participants:
+**Manasse Nkundimana**
+**Luciano Crossa Niell**
+
+---
+
+We used Google Chat for face to face communication via video and screenshare. Because we needed a subscription, we recorded the screenshare using BandiCam software and then uploaded the videos to Google Drive to then share them through the below links.
+
+---
+
+**1st Session Recording**- Unit Test Meeting-
+**2nd Session Recording**- Code Refactor-
+
+---
+
+### Unit Tests
 
 ## ![Image](test-results.png)
+
+### Code Coverage
+
+## ![Image](code-coverage.png)
+
+---
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
