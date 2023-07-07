@@ -1,7 +1,7 @@
 ## 🌹 Gilded Rose Requirements Specification 🛎
 
 Participants:
-**Manasse Nkundimana**
+**Manasse Nkundimana**  
 **Luciano Crossa Niell**
 
 ---
@@ -10,8 +10,8 @@ We used Google Chat for face to face communication via video and screenshare. Be
 
 ---
 
-**1st Session Recording**- Unit Test Meeting-
-**2nd Session Recording**- Code Refactor-
+**1st Session Recording**- Unit Test Meeting  
+**2nd Session Recording**- Code Refactor
 
 ---
 
