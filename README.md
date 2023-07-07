@@ -1,4 +1,4 @@
-## Gilded Rose Requirements Specification 🛎🌹
+## 🛎 Gilded Rose Requirements Specification 🌹
 
 Participants:  
 **Manasse Nkundimana**  
@@ -17,6 +17,7 @@ Participants:
 ---
 
 We used Google Chat for face to face communication via video and screenshare. Because we needed a subscription, we recorded the screenshare using BandiCam software and then uploaded the videos to Teams to then share them through the below links.
+{: .alert .alert-gitlab-gray}
 
 ---
 
