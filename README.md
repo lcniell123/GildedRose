@@ -16,7 +16,7 @@ Participants:
 
 ---
 
-We used Google Chat for face to face communication via video and screenshare. Because we needed a subscription, we recorded the screenshare using BandiCam software and then uploaded the videos to Google Drive to then share them through the below links.
+We used Google Chat for face to face communication via video and screenshare. Because we needed a subscription, we recorded the screenshare using BandiCam software and then uploaded the videos to Teams to then share them through the below links.
 
 ---
 
